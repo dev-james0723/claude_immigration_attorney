@@ -42,6 +42,8 @@ Single file: `expert_letters.md` with strategy matrix, coverage check, all lette
 
 ## Workflow
 
+**Optional upstream:** **case-strength-assessor** can show which criteria need evidence; **publication-citation-table** can show which C5 items need expert corroboration.
+
 ```
 document index + petition package
        ↓

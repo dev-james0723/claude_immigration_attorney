@@ -36,6 +36,10 @@ You will walk through 5 phases:
 
 This skill consumes the output of the **document-summary-arrangement** skill. If no document index exists, ask the user to run that skill first.
 
+If the user already ran **case-strength-assessor**, use its criterion ratings and gap list to prioritize which criteria to argue first and what evidence still needs gathering — it does not replace attorney strategy.
+
+If the user provides **publication-citation-table** output, treat the **TSV** (or per-PUB blocks) and **lead works** section as the canonical Criterion 5 inventory for exhibit order — still verify every number in the letter against the source registry; treat `NEEDS VERIFICATION` cells as attorney actions, not citable facts until resolved.
+
 ---
 
 ## Phase 1: Case Setup

@@ -1,6 +1,6 @@
 # Scripts
 
-Utility scripts for document processing. Used by `document-summary-arrangement` and the petition skills.
+Utility scripts for document processing. Used by `document-summary-arrangement` and the petition skills. The document index may **optionally** feed **`case-strength-assessor`** or **`publication-citation-table`**; those skills do not use these scripts.
 
 ## Setup
 

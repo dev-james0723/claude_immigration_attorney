@@ -34,6 +34,12 @@ Drafts EB-1A (extraordinary ability green card) petition support letters. Same c
 
 Single file: `eb1a_petition_package.md` — support letter, source registry, web sources, evidence gaps, and EB-1A-specific checklist.
 
+## Prerequisites
+
+Run **document-summary-arrangement** first to build the document index.
+
+**Optional:** **case-strength-assessor** before drafting for criterion strength and EB-1A Step 2 readiness (`/case-strength-assessor`). For publication-heavy cases, run **`publication-citation-table`** (`/publication-citation-table`) for a Criterion 5 grid and C5 vs press separation.
+
 ## Usage
 
 ```

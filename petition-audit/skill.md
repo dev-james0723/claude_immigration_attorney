@@ -40,6 +40,9 @@ Required inputs:
 4. **Source documents** — the actual exhibits referenced in the letter (or access to them)
 5. **Petition type** — O-1A, EB-1A, or NIW
 
+Optional:
+6. **Prior case-strength-assessor or publication-citation-table output** — if the team ran optional pre-draft skills, compare the draft to those artifacts (e.g. over-claiming on weak criteria or unverified `NEEDS VERIFICATION` cells).
+
 ---
 
 ## Phase 2: Claim Extraction
