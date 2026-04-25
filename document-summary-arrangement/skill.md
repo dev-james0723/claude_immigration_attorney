@@ -566,7 +566,8 @@ If the user adds new documents after the initial index is built:
 This skill produces the document foundation that other legal skills consume.
 
 **Immigration (this repo):** downstream skills typically include:
-- **case-strength-assessor** (optional) — frank pre-draft assessment of criterion/prong strength from the index; **never required**; use only if the attorney wants this check before drafting
+- **case-strength-assessor** (optional) — frank pre-draft assessment of criterion/prong strength from the index; **never required**
+- **publication-citation-table** (optional) — summary + TSV + C3 side list + lead C5 picks for O-1A/EB-1A Criterion 5 and NIW track record; **never required**
 - **o1-petition-narrative** / **eb1a-petition-narrative** / **niw-petition-narrative** — petition support letters
 - **niw-national-importance-research** — government and policy sources for NIW national importance
 - **expert-letter-drafter** — expert/reference letters

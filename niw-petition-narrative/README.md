@@ -45,7 +45,7 @@ Single file: `niw_petition_package.md` with support letter, source registry, web
 
 Run **document-summary-arrangement** first if documents haven't been indexed.
 
-**Optional:** Run **case-strength-assessor** on the index to assess the three Dhanasar prongs before drafting (`/case-strength-assessor`).
+**Optional:** **case-strength-assessor** on the index to assess the three Dhanasar prongs (`/case-strength-assessor`). For researcher petitions, run **`publication-citation-table`** (`/publication-citation-table`) to align publications with track-record sections.
 
 ## Usage
 

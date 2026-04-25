@@ -35,6 +35,8 @@ These files contain distilled best practices from real cases. Follow them.
 
 Consumes the document index from **document-summary-arrangement**. If **case-strength-assessor** was run first, use its prong ratings and evidence-gap list to focus the national-importance and well-positioned sections — final strategy remains with the attorney.
 
+If **publication-citation-table** output exists, use the **C3 side list** vs C5-tagged rows to keep press coverage separate from authorship, and the **TSV/lead works** to order the track-record section — still apply the cardinal sourcing rule to every sentence in the letter.
+
 ---
 
 ## Phase 1: Case Setup

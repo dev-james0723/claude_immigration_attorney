@@ -38,7 +38,7 @@ Single file: `eb1a_petition_package.md` — support letter, source registry, web
 
 Run **document-summary-arrangement** first to build the document index.
 
-**Optional:** Run **case-strength-assessor** on the index before drafting for a pre-draft assessment of criterion strength and EB-1A Step 2 readiness (`/case-strength-assessor`).
+**Optional:** **case-strength-assessor** before drafting for criterion strength and EB-1A Step 2 readiness (`/case-strength-assessor`). For publication-heavy cases, run **`publication-citation-table`** (`/publication-citation-table`) for a Criterion 5 grid and C5 vs press separation.
 
 ## Usage
 

@@ -42,11 +42,7 @@ Use `knowledge/argument-patterns.md` only if you need to spot common failure mod
 ### Required inputs
 
 1. **Document index** — Output from `document-summary-arrangement` (e.g. `document_index.md` or equivalent). If the user only has a partial index, say so and assess what is available; flag coverage gaps.
-2. **Target petition type(s)** — Ask if not clear:
-   - O-1A
-   - EB-1A
-   - EB-2 NIW
-   - Multiple (e.g. "considering O-1 vs EB-1A") — assess against each requested type
+2. **Target petition type(s)** — Ask if not clear: O-1A, EB-1A, EB-2 NIW, or multiple.
 
 ### Optional but helpful
 
@@ -59,7 +55,7 @@ If no document index exists, **stop** and tell the user to run `/document-summar
 
 ## Phase 2: Map Evidence to Criteria or Prongs
 
-### O-1A / EB-1A — eight shared criteria (use these labels)
+### O-1A / EB-1A — eight shared criteria
 
 | # | Criterion |
 |---|-----------|
@@ -92,15 +88,15 @@ For each criterion or prong you discuss:
 
 1. **Identify supporting documents** from the index (by title/summary/type).
 2. **Classify** each piece using `knowledge/evidence-hierarchy.md` (Tier 1–4).
-3. **Check corroboration** — Expert/colloquial letters without independent docs are **vulnerable** (see overview files: letters are advisory, not substitutes for documentary proof).
+3. **Check corroboration** — Expert letters without independent docs are **vulnerable** (letters are advisory, not substitutes for documentary proof).
 4. **Check criterion fit** — Misfiled evidence (e.g., beneficiary's own articles under "press about the beneficiary") yields **WEAK** until reclassified.
 
 ### Rating definitions
 
 | Rating | Meaning |
 |--------|---------|
-| **STRONG** | At least one plausible Tier 1 or strong Tier 2 anchor + corroboration; criterion sub-elements appear addressable from the index |
-| **MODERATE** | Some independent evidence but thin on quantity, dated, or heavy on Tier 3; may work with aggressive drafting and more exhibits — **flag risks** |
+| **STRONG** | At least one plausible Tier 1 or strong Tier 2 anchor + corroboration; sub-elements appear addressable from the index |
+| **MODERATE** | Some independent evidence but thin on quantity, dated, or heavy on Tier 3; may work with more exhibits — **flag risks** |
 | **WEAK** | Mostly Tier 3–4, or single weak document, or serious fit problems — **do not count toward a reliable three-criterion set** until strengthened |
 | **INSUFFICIENT** | No indexed evidence, or only mentions without exhibits — **cannot argue this criterion** from the current file |
 
@@ -110,23 +106,20 @@ For **NIW**, if any prong is WEAK or INSUFFICIENT, state that **the petition is 
 
 ### Step 2 (EB-1A) — preview only
 
-If assessing EB-1A, add a short **Step 2 / totality preview** based on the index: does the file suggest **sustained** national or international acclaim (not one-off wins)? List what would likely anchor a Step 2 argument vs what is missing. This is not a final legal conclusion — it is a drafting readiness signal.
+If assessing EB-1A, add a short **Step 2 / totality preview** based on the index: does the file suggest **sustained** national or international acclaim? List what would anchor a Step 2 argument vs what is missing. This is a drafting readiness signal, not a final legal conclusion.
 
 ---
 
 ## Phase 4: Output Format
 
-Produce a single assessment document with the following sections.
-
 ### 1. Executive summary (5–10 sentences)
 
 - Petition type(s) assessed  
-- Count of **STRONG** vs **MODERATE** vs **WEAK/INSUFFICIENT** criteria (or prongs)  
-- One blunt sentence: e.g. "The file currently supports a credible case on criteria X and Y only; Z should not be drafted as a lead criterion without new evidence."
+- Count of **STRONG** / **MODERATE** / **WEAK/INSUFFICIENT** criteria (or prongs)  
+- One frank sentence on what the file can and cannot support today.
 
 ### 2. Overall readiness (not a legal verdict)
 
-Use one label:
 - **DRAFTING VIABLE** — At least three criteria (O-1A/EB-1A) or all three prongs (NIW) at MODERATE or better, with a clear path in the index  
 - **DRAFTING RISKY** — Three criteria met on paper but several are MODERATE/WEAK; high RFE risk  
 - **NOT READY** — Fewer than three viable criteria, or NIW prong(s) unsupported  
@@ -135,29 +128,21 @@ Always repeat: **not approval odds** — readiness to **invest in drafting**.
 
 ### 3. Per-criterion or per-prong table
 
-**O-1A / EB-1A example:**
+O-1A / EB-1A: Criterion | Rating | Key indexed items | Dominant tier | Corroboration gap?  
 
-| Criterion | Rating | Key indexed items | Dominant tier | Corroboration gap? |
-|-----------|--------|-------------------|---------------|-------------------|
-| 1 Awards | MODERATE | … | Tier 2 | Needs independent verification of selection process |
-
-**NIW example:**
-
-| Prong | Rating | Key indexed items | Notes |
-|-------|--------|-------------------|-------|
-| 1 Substantial merit / national importance | … | … | … |
+NIW: Prong | Rating | Key indexed items | Notes  
 
 ### 4. Misclassification risks
 
-Bullet list: evidence that may be **wrong criterion**, **overstated** in summary, or **needs re-labeling** before drafting.
+Bullet list: evidence that may be **wrong criterion** or **overstated** in the summary.
 
 ### 5. Evidence gaps (prioritized)
 
-Numbered list: **what to obtain** before petition narrative (specific document types, not generic "more awards").
+Numbered list: **what to obtain** before narrative drafting (specific document types).
 
 ### 6. Recommended sequencing
 
-- Which criteria to **lead** vs **support** in the letter  
+- Which criteria to **lead** vs **support**  
 - Whether to **defer filing** until gaps close  
 - If NIW: whether `niw-national-importance-research` should run before `niw-petition-narrative`
 
@@ -165,24 +150,24 @@ Numbered list: **what to obtain** before petition narrative (specific document t
 
 ## Rules
 
-- **Be frank** — Attorneys need honesty, not encouragement.  
+- **Be frank** — attorneys need honesty.  
 - **Ground every rating** in the index and the knowledge files — no invented facts.  
-- If the index summary is vague, say **"unclear from index — verify exhibit"** rather than guessing.  
+- If the index is vague, say **"unclear from index — verify exhibit"** rather than guessing.  
 - **Do not draft petition language** — this skill stops at assessment.  
 - Remind the user that final strategy belongs to a licensed attorney.
 
 ---
 
-## Workflow Position
+## Workflow position
 
 **This skill is optional.** Many cases go straight from the document index to petition narrative skills.
 
 ```
 document-summary-arrangement → document index
        │
-       ├── (optional) case-strength-assessor → strength assessment  ← this skill
+       ├── (optional) case-strength-assessor → strength assessment
        │
-       └──→ o1-petition-narrative / eb1a-petition-narrative / niw-petition-narrative (usual next step)
+       └──→ o1-petition-narrative / eb1a-petition-narrative / niw-petition-narrative
 ```
 
-**When to use:** Only if the attorney wants a dedicated pre-draft read on criterion/prong strength from the index — e.g. to decide whether to delay drafting until more exhibits arrive. Otherwise skip.
+**When to use:** Only if the team wants a dedicated pre-draft read on criterion or prong strength. Otherwise skip.

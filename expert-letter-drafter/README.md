@@ -42,7 +42,7 @@ Single file: `expert_letters.md` with strategy matrix, coverage check, all lette
 
 ## Workflow
 
-**Optional upstream:** After the document index exists, **case-strength-assessor** can flag which criteria need corroboration — useful when assigning topics to experts.
+**Optional upstream:** **case-strength-assessor** can show which criteria need evidence; **publication-citation-table** can show which C5 items need expert corroboration.
 
 ```
 document index + petition package

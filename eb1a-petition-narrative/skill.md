@@ -72,6 +72,8 @@ Same 5 phases as o1-petition-narrative:
 
 Requires the **document index** from **document-summary-arrangement**. **case-strength-assessor** (optional) may be run first for a pre-draft strength report; use it to prioritize criteria and flag gaps, not as a substitute for attorney judgment.
 
+**publication-citation-table** (optional) may supply a summary table + TSV and **lead works** for Criterion 5 — align exhibits and citation numbers to that inventory; do not cite cells marked **`NEEDS VERIFICATION`** as settled facts.
+
 ---
 
 ## Phase 1: Case Setup

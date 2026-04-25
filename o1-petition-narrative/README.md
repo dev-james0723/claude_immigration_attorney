@@ -51,7 +51,7 @@ Every factual assertion → must have a source:
 
 Run **document-summary-arrangement** first to build the document index.
 
-**Optional:** Run **case-strength-assessor** on the index for a pre-draft frank assessment of which criteria look strong, moderate, or weak before you invest in narrative drafting (`/case-strength-assessor`).
+**Optional:** Run **case-strength-assessor** on the index for a pre-draft assessment of which criteria look strong, moderate, or weak (`/case-strength-assessor`). For heavy publication records, run **`publication-citation-table`** (`/publication-citation-table`) to normalize papers and Criterion 5 tagging before drafting Criterion 5.
 
 ## Usage
 

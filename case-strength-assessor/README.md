@@ -20,8 +20,8 @@
 ## What it is not
 
 - **Not legal advice** and **not a prediction of USCIS approval**  
-- **Not a substitute** for attorney judgment on strategy  
-- **Does not** read full exhibit PDFs unless you provide them — it is designed for the **document index** output  
+- **Not a substitute** for attorney strategy  
+- **Designed for the document index;** it does not replace a full read of exhibit PDFs  
 
 ## Workflow
 
@@ -32,8 +32,6 @@ document-summary-arrangement  →  document index
          │
          └── (optional only) case-strength-assessor  →  strength assessment
 ```
-
-After that, continue with `o1-petition-narrative`, `eb1a-petition-narrative`, or `niw-petition-narrative` as you would have without this skill.
 
 ## Usage
 

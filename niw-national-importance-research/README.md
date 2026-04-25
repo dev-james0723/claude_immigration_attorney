@@ -49,7 +49,7 @@ document-summary-arrangement  →  document index
 
 Run **niw-national-importance-research** before drafting the NIW petition. The petition skill consumes this research.
 
-**Optional (skip by default):** `/case-strength-assessor` on the document index — only if you want a separate pre-draft strength report; **not required** for this workflow.
+**Optional (skip by default):** `/case-strength-assessor` or `/publication-citation-table` on the document index — not required.
 
 ## Usage
 

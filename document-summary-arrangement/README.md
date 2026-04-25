@@ -55,7 +55,7 @@ After `document_index.md` exists, the **default** path is to go straight to the 
 
 - `/o1-petition-narrative` or `/eb1a-petition-narrative`, or for NIW `/niw-national-importance-research` then `/niw-petition-narrative`
 
-**Optional only:** If you want a separate pre-draft pass on how strong each criterion or NIW prong looks *from the index alone*, run [`case-strength-assessor`](../case-strength-assessor/) (`/case-strength-assessor`). Skip it entirely if you do not need that report.
+**Optional only:** If you want a separate pre-draft pass on how strong each criterion or NIW prong looks *from the index alone*, run [`case-strength-assessor`](../case-strength-assessor/) (`/case-strength-assessor`). For research-heavy clients, you can run [`publication-citation-table`](../publication-citation-table/) (`/publication-citation-table`) to build a deduplicated publication/citation grid. Skip either skill if you do not need those outputs.
 
 ## Key improvements from v1
 
